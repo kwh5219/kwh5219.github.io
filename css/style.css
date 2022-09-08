@@ -30,7 +30,7 @@ a {
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
 	transition:all 0.5s;
-	border-bottom: 1px dashed;
+	border-bottom: none;
 	outline:none!important;
 }
 a:hover,a:focus,a:active {
@@ -283,7 +283,7 @@ table {
 }
 /* ==========================================================================Section Styles========================================================================== */
 .section-padding {
-	padding:90px 0 100px
+	padding:70px 0 50px
 }
 .dark-bg {
 	background:#f3f5f8;
@@ -864,8 +864,8 @@ img.grayscale:hover {
 	-o-transition:all 0.5s ease;
 }
 .subscribe input[type=submit]:hover {
-	background: rgba(255, 232, 0, 0.9);
-	border: solid 1px #FFE800;
+	background: rgba(255, 255, 255, 0.9);
+	border: solid 1px #ffffff;
 	color: #E04343;
 }
 /* ==========================================================================CTA========================================================================== */
@@ -925,11 +925,19 @@ ul.social-buttons li:last-child {
 	font-size:17px;
 	line-height:40px;
 	text-align:center;
+	border-radius: 12px;
 }
-.social-btn:hover,.social-btn:focus {
+/* .social-btn:hover,.social-btn:focus {
+	background: rgb(30, 0, 0);
+	color: #E04343;
+} */
+.social-btn:hover,.social-btn:focus,.social-btn:before {
 	background: rgb(255, 255, 255);
 	color: #E04343;
+	transition: background-color 0.2s ease-in-out 0s;
 }
+
+
 .social {
 	margin-top: 25px
 }
@@ -940,7 +948,7 @@ ul.social-buttons li:last-child {
 	background: rgba(255, 255, 255, 0.9);
 	display:block;
 	margin:0 auto;
-	color: #E04343;
+	color: #000000;
 	font-size:18px;
 	line-height:52px;
 	text-align:center;
@@ -952,7 +960,7 @@ ul.social-buttons li:last-child {
 	margin-right:auto;
 }
 .up-btn:hover,up-btn:focus {
-	color: black;
+	color: #E04343;
 	background: #ffffff;
 }
 .contact-details {
@@ -1028,7 +1036,7 @@ footer a {
 }
 footer {
 	background-color:#f3f5f8;
-	padding:40px 0 30px;
+	padding:0 30px;
 }
 footer p {
 	color: #808080;
