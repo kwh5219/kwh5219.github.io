@@ -1112,6 +1112,10 @@ ul.slides li {
 	animation-delay:1s;
 	-webkit-animation-delay:1s;
 }
+.delay-15s {
+	animation-delay:1.5s;
+	-webkit-animation-delay:1.5s;
+}
 .wp3 {
 	background:url('../img/iphone-bg.png') no-repeat center center;
 	background-position:200px 10px;
